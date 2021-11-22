@@ -1,0 +1,20 @@
+{
+  "name": "eivanove",
+  "version": "1.0.0",
+  "description": "Overkill digital portfolio solution",
+  "main": "index.js",
+  "author": "eivanovue",
+  "license": "ISC",
+  "scripts": {
+    "build": "yarn workspace @eivanovue/client run build",
+    "start": "yarn workspace @eivanovue/server run start",
+    "dev": "export $(cat .env | xargs) && yarn workspace @monorepo/server run dev"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": "14.x"
+  }
+}
