@@ -8,7 +8,7 @@
   "scripts": {
     "build": "yarn workspace @eivanovue/client run build",
     "start": "yarn workspace @eivanovue/server run start",
-    "dev": "export $(cat .env | xargs) && yarn workspace @monorepo/server run dev"
+    "dev": "export $(cat .env | xargs) && yarn workspace @eivanovue/server run dev"
   },
   "private": true,
   "workspaces": [
