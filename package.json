@@ -8,7 +8,7 @@
   "scripts": {
     "build": "yarn workspace @eivanovue/client run build",
     "start": "yarn workspace @eivanovue/server run start",
-    "dev": "export $(cat .env | xargs) && yarn workspace @eivanovue/server run dev"
+    "dev": "set NODE_ENV=development && set GRAPHQL_URI=http://localhost:3000/graphql&& set PORT=3000 && yarn workspace @eivanovue/server run dev"
   },
   "private": true,
   "workspaces": [
