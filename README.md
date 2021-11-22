@@ -4,6 +4,6 @@ This project combines `Next JS` with `Apollo Client` on Frontend and `Apollo Ser
 
 # Usage
 `yarn install`
-`yarn dev`
+`yarn dev` 
 
 **go to** `http://localhost:3000`
