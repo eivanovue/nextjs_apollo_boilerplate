@@ -37,7 +37,7 @@ const NOSSR = () => {
         </h1>
 
         <p className={styles.description}>
-          Non server-side rendered page (static) {'\n'}
+          Non server-side rendered page (client) {'\n'}
           <code className={styles.code}>
             <Link href="/ssr">click to view SSR</Link>
           </code>
